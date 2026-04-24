@@ -64,7 +64,7 @@ char	*ft_strdup(const char *s)
 	return (copy);
 }
 
-char	*ft_strjoin(char *stash, char *buffer)
+static char	*ft_strjoin(char *stash, char *buffer)
 {
 	size_t	len;
 	size_t	i;
